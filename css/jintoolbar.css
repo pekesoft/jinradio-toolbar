@@ -1,0 +1,52 @@
+.fixedbar{ background: #000;bottom: 0px;color: #fff;font-family: Arial, Helvetica, sans-serif; left: 0;padding: 0px 0;position: fixed; font-size: 16px;width: 100%;z-index: 99999; float: left;vertical-align: middle; margin: 0px 0 0;opacity: 0.9;font-weight: bold;}
+.floatingbox { text-align: center; width: auto;margin: 0 auto;}
+#tips {width: auto;font-size: 18px;line-height: 100%;max-width: 960px;
+margin: auto; margin-top:4px; padding: 0px !important;}
+#tips li{ float:right; list-style:none; padding:0px 0; margin:0 6px 0 0 !important; }
+#tips li a{color:#FFF; text-decoration:none;} 
+#tips li a:hover{color:#FFF !important; text-decoration:none;}
+
+
+.fixedbar {
+height: 60px;
+opacity: 0.75!important;
+z-index:9000000000;
+
+-webkit-transition-duration:1s;
+-moz-transition-duration: 1s; 
+ -o-transition-duration: 1s;
+transition-duration: 1s;
+}
+
+
+.fixedbar:hover {
+opacity: 0.95!important;
+
+-webkit-transition-duration:1s;
+-moz-transition-duration: 1s; 
+ -o-transition-duration: 1s;
+transition-duration: 1s;
+}
+
+.MenuInicio {
+    
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 ); /* IE6-9 */
+
+    
+}
+
+img.MenuInicio {
+    position: absolute;
+    left: 2px;
+    bottom: 5px;
+}
